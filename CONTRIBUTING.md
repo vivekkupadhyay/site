@@ -1,0 +1,1 @@
+Vivek Upadhyay | UI Developer | Front-end Developer | Email: vk.vivekupadhyay@gmail.com | Call: +91 9454727254 | India | Design and develop efficient, adaptable and intuitive user interfaces for web and mobile applications while continuing to learn and expand my knowledge of emerging web technologies and standards.
