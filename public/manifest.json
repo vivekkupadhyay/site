@@ -1,0 +1,11 @@
+{
+   "lang": "en",
+   "name": "infinite imaginations",
+   "short_name": "infinite",
+   "description": "Hi, I am Vivek Upadhyay An ambitious and self-motivated Front-End Developer who has over 4+ years of proactive work experience. I create high performance & rich interactive websites using most of the Modern Web Technologies, that work across all the platforms & devices.",
+   "start_url": "./index.html",
+   "display": "standalone",
+   "orientation": "portrait",
+   "background_color" : "#191919",
+   "theme_color": "#ff5252"
+}
