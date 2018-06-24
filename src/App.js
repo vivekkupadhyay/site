@@ -7,6 +7,27 @@ import Footer from './components/Footer'
 import './App.css';
 
 class App extends Component {
+
+  // fake authentication Promise
+  authenticate(){
+    return new Promise(resolve => setTimeout(resolve, 2000))
+  }
+
+  componentDidMount(){
+    this.authenticate().then(() => {
+      const ele = document.getElementById('ipl-progress-indicator')
+      if(ele){
+        // fade out
+        ele.classList.add('available')
+        document.getElementById('site-body').classList.remove('loading-screen')
+        setTimeout(() => {
+          // remove from DOM
+          ele.outerHTML = ''
+        }, 2000)
+      }
+    })
+  }
+
   render() {
     return (
       <main className="App wrapper">
