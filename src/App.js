@@ -32,6 +32,7 @@ class App extends Component {
     return (
       <main className="App wrapper">
         <nav className="contact-me">
+            <a href="https://drive.google.com/file/d/0B00jdfNVqt4pUHpwWXN4cnFCNkE/view?usp=sharing" name="My Résumé" title="My Résumé" target="_blank" rel="noopener noreferrer"><i className="fa fa-file-pdf-o"></i></a>
             <a href="https://www.linkedin.com/in/vivekkupadhyay" name="LinkedIn" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin"></i></a>
             <a href="https://github.com/vivekkupadhyay" name="GitHub" title="GitHub" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a>
             <a href="http://stackoverflow.com/users/4763084/vivekkupadhyay" name="Stack Overflow" title="Stack Overflow" target="_blank" rel="noopener noreferrer"><i className="fa fa-stack-overflow"></i></a>
